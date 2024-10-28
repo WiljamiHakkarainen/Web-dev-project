@@ -1,0 +1,70 @@
+/* Importataan googlelta sopiva fontti body-osiolle */
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+body {
+    font-family: 'Cabin', sans-serif;
+    background-color: #1d2326;
+    color: #5da2bd;
+    margin: 0;
+    padding: 0;
+}
+/* Playground-sivun toiminnallisuuden ja ulkonäön muokkaava osio */
+* { 
+    box-sizing: border-box;
+}
+main {
+    display: flex;
+    flex-direction: row;
+}
+img {
+    border: 1px solid white;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 100%;
+}
+
+.content {
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+  
+  .content p {
+    max-width: 80%;
+  }
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-left: 2px dotted #5da2bd;
+  height: 85vh;
+}
+
+button {
+    width: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    border: 1px solid #5da2bd;
+    background: transparent;
+    color: #5da2bd;
+    border-radius: 5px;
+}
+  
+button:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+  
+.reveal-btn {
+    border: none;
+    text-decoration: underline;
+    margin: 0;
+}
+  
+.reveal-btn:hover {
+    color: white;
+    background-color: transparent;
+}
